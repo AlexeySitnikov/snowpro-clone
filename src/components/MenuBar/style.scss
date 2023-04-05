@@ -1,0 +1,19 @@
+.container_MenuBar{
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+  flex-direction: column;
+}
+
+.menuBar_logo{
+  height: 150px;
+  background-image: url("D:\Developer\snowpro-clone\src\utils\image\head_bg1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.menuBar{
+  display: flex;
+  justify-content: space-around;
+}
