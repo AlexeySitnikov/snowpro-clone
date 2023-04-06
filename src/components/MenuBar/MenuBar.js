@@ -1,6 +1,6 @@
 import './style.scss'
 import logo from '../../utils/image/logo1.png'
-import backGroundLogo from '../../utils/image/head_bg1.png'
+import picture from '../../utils/image/20let_ras_ok.jpg'
 
 export function MenuBar() {
   return (
@@ -8,14 +8,20 @@ export function MenuBar() {
       <div className="menuBar_logo">
         <img src={`${logo}`} alt="logo" />
       </div>
-      <div>
-        <img src={`${backGroundLogo}`} alt="asd" />
-      </div>
       <div className="menuBar">
-        <div>Menu_1</div>
-        <div>Menu_2</div>
-        <div>Menu_3</div>
-        <div>Menu_4</div>
+        <div>О нас</div>
+        <div>Календарь школ</div>
+        <div>Инструкторы</div>
+        <div>Фото и видео</div>
+        <div>Контакты</div>
+      </div>
+      <div>
+        <img src={`${picture}`} className="picture" alt="label" />
+      </div>
+      <div className="buttonsUnderPicture">
+        <button type="button">Записаться</button>
+        <button type="button">Регистрация</button>
+        <button type="button">Логин</button>
       </div>
     </div>
   )

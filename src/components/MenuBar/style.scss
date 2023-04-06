@@ -1,13 +1,16 @@
 .container_MenuBar{
   display: flex;
   justify-content: space-around;
-  background-color: aqua;
+  // background-color: aqua;
   flex-direction: column;
+  padding-top: 24px;
+  border: 2px solid pink;
 }
 
 .menuBar_logo{
-  height: 150px;
-  background-image: url("D:\Developer\snowpro-clone\src\utils\image\head_bg1.png");
+  padding-top: 12px;
+  height: 110px;
+  background: url('head_bg1.png');
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -16,4 +19,19 @@
 .menuBar{
   display: flex;
   justify-content: space-around;
+  background-color: blue;
+  color: aliceblue;
+  padding-top: 4px;
+}
+
+.picture{
+  display: inline-flex;
+  // border: 20px solid black;
+  padding-top: 8px;
+}
+
+.buttonsUnderPicture{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
 }
