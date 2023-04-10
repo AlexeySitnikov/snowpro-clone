@@ -4,7 +4,7 @@ import styles from './style.module.scss'
 export function NewsElement() {
   return (
     <div className={`${styles.container}`}>
-      <div>Статьи и материалы</div>
+      <h2>Статьи и материалы</h2>
       <div>
         <OneNews />
       </div>
