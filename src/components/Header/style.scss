@@ -9,13 +9,12 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  position: fixed;
-  top: 0;
-  z-index: 10;
+  z-index: 100;
   left: 0;
   right: 0;
   background: none;
   transition: box-shadow, background-color .25s ease;
+  border: 12px dotted red;
 }
 
 .header__scrolled{

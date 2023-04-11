@@ -1,0 +1,13 @@
+.left_element{
+  background-color: whitesmoke;
+  width: 25%;  
+}
+
+.left_elementLabel{
+  display: flex;
+  text-align: center;
+  color: #369;
+  text-transform:uppercase;
+  background: url("../../utils/image/big_title_bg.png") no-repeat;
+  padding-left: 100px;
+}
