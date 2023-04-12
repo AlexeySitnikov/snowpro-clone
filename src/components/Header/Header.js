@@ -1,4 +1,5 @@
 import './style.scss'
+import logo from '../../utils/image/logo1.png'
 
 export function Header() {
   function updateScroll() {
@@ -11,7 +12,7 @@ export function Header() {
   window.addEventListener('scroll', updateScroll)
   return (
     <header>
-      <img className="header__logo" src="img/logo.svg" alt="logo" />
+      <img className="header__logo" src={`${logo}`} alt="logo" />
       <div className="header__controls">
         <a href="#form">Контакты</a>
         <button type="button" href="#">Заказать</button>

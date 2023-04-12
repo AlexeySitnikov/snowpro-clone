@@ -8,4 +8,18 @@
   h2{
     color: red;
   }
+
+  a{
+    padding-top: 204px;
+    font-size: 2vh;
+  }
+
+  hr{
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
 }
