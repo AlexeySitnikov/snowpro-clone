@@ -8,8 +8,10 @@ export function Right() {
         <h2>Школы</h2>
       </div>
       <SchoolElement />
-      <div className={`${styles.right_elementLabel}`}>
-        <h2>Все школы</h2>
+      <div className={`${styles.right_elementDiv}`}>
+        <div className={`${styles.right_elementLabel}`}>
+          <h2>Все школы</h2>
+        </div>
       </div>
     </div>
   )

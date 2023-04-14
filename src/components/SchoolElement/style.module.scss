@@ -3,9 +3,46 @@
   padding: 0;
 }
 
-.schoolElement{
-  padding-top: 24px;
+.schoolElement__container{
+  padding-top: 4px;
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+
   h2{
     color: red;
+  }
+
+  .schoolElement__oneBlock{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-top: 4px;
+  }
+
+  .schoolElement__pictureWithLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .schoolElement__picture{
+    margin: 0;
+    padding: 4px;
+    height: 51px;
+    border-radius: 4px;
+  }
+
+  hr{
+    border-style: double;
+    border-width: 1px;
+    border-color: darkblue;
+    margin-top: 4px;
+  }
+
+  .schoolElement__text{
+    text-align: justify;
+    width: 100%;
   }
 }

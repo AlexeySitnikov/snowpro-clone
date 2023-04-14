@@ -2,157 +2,108 @@ import styles from './style.module.scss'
 
 export function SchoolElement() {
   return (
-    <div className={`${styles.schoolElement}`}>
-      <div className="views-row views-row-1 views-row-odd views-row-first">
-
-        <div className="views-field views-field-field-school-image-mini">
-          {' '}
-          <div className="field-content"><a href="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh"><img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma643.jpg?itok=e8tkR9sZ" width="59" height="51" alt="asd" /></a></div>
-          {' '}
-        </div>
-        <span className="views-field views-field-title">
-          {' '}
-          <span className="field-content">
+    <div className={`${styles.schoolElement__container}`}>
+      <div className={`${styles.schoolElement__oneBlock}`}>
+        <div className={`${styles.schoolElement__pictureWithLink}`}>
+          <div className={`${styles.schoolElement__picture}`}>
             <a href="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
+              <img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma643.jpg?itok=e8tkR9sZ" alt="asd" />
+            </a>
+          </div>
+        </div>
+        <div className={`${styles.schoolElement__text}`}>
+          <a href="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
+            <div>
               Южно-Сахалинск ( Южный) курорт...
-              <div className="views-field views-field-field-school-start">
-                {' '}
-                <div className="field-content">
-                  <span className="date-display-range">
-                    <span className="date-display-start">05 марта</span>
-                    {' '}
-                    -
-                    {' '}
-                    <span className="date-display-end">11 марта</span>
-                  </span>
-                </div>
-                {' '}
-              </div>
-            </a>
-          </span>
-          {' '}
-        </span>
-      </div>
-      <div className="views-row views-row-2 views-row-even">
-
-        <div className="views-field views-field-field-school-image-mini">
-          {' '}
-          <div className="field-content"><a href="/content/heli-ski-shkola-kamchatka"><img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma658.jpg?itok=lupSbpRh" width="59" height="51" alt="asd" /></a></div>
-          {' '}
+              <br />
+              05 марта-11 марта
+            </div>
+          </a>
         </div>
-        <span className="views-field views-field-title">
-          {' '}
-          <span className="field-content">
+      </div>
+
+      <hr />
+
+      <div className={`${styles.schoolElement__oneBlock}`}>
+        <div className={`${styles.schoolElement__pictureWithLink}`}>
+          <div className={`${styles.schoolElement__picture}`}>
             <a href="/content/heli-ski-shkola-kamchatka">
+              <img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma658.jpg?itok=lupSbpRh" alt="asd" />
+            </a>
+          </div>
+        </div>
+        <div className={`${styles.schoolElement__text}`}>
+          <a href="/content/heli-ski-shkola-kamchatka">
+            <div>
               Хели-ски школа (Камчатка)
-              <div className="views-field views-field-field-school-start">
-                {' '}
-                <div className="field-content">
-                  <span className="date-display-range">
-                    <span className="date-display-start">19 марта</span>
-                    {' '}
-                    -
-                    {' '}
-                    <span className="date-display-end">25 марта</span>
-                  </span>
-                </div>
-                {' '}
-              </div>
-            </a>
-          </span>
-          {' '}
-        </span>
-      </div>
-      <div className="views-row views-row-3 views-row-odd">
-
-        <div className="views-field views-field-field-school-image-mini">
-          {' '}
-          <div className="field-content"><a href="/content/arhyz-rossiya-6"><img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma647.jpg?itok=LdBIxxue" width="59" height="51" alt="asd" /></a></div>
-          {' '}
+              <br />
+              19 марта - 25 марта
+            </div>
+          </a>
         </div>
-        <span className="views-field views-field-title">
-          {' '}
-          <span className="field-content">
+      </div>
+
+      <hr />
+
+      <div className={`${styles.schoolElement__oneBlock}`}>
+        <div className={`${styles.schoolElement__pictureWithLink}`}>
+          <div className={`${styles.schoolElement__picture}`}>
             <a href="/content/arhyz-rossiya-6">
+              <img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma647.jpg?itok=LdBIxxue" alt="asd" />
+            </a>
+          </div>
+        </div>
+        <div className={`${styles.schoolElement__text}`}>
+          <a href="/content/arhyz-rossiya-6">
+            <div>
               Архыз (Россия)
-              <div className="views-field views-field-field-school-start">
-                {' '}
-                <div className="field-content">
-                  <span className="date-display-range">
-                    <span className="date-display-start">27 февраля</span>
-                    {' '}
-                    -
-                    {' '}
-                    <span className="date-display-end">04 марта</span>
-                  </span>
-                </div>
-                {' '}
-              </div>
-            </a>
-          </span>
-          {' '}
-        </span>
-      </div>
-      <div className="views-row views-row-4 views-row-even">
-
-        <div className="views-field views-field-field-school-image-mini">
-          {' '}
-          <div className="field-content"><a href="/content/kopaonik-serbiya-8"><img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma642.jpg?itok=oR1-n7Wq" width="59" height="51" alt="asd" /></a></div>
-          {' '}
+              <br />
+              27 февраля - 04 марта
+            </div>
+          </a>
         </div>
-        <span className="views-field views-field-title">
-          {' '}
-          <span className="field-content">
+      </div>
+
+      <hr />
+
+      <div className={`${styles.schoolElement__oneBlock}`}>
+        <div className={`${styles.schoolElement__pictureWithLink}`}>
+          <div className={`${styles.schoolElement__picture}`}>
             <a href="/content/kopaonik-serbiya-8">
-              {' '}
-              Копаоник (Сербия)
-              <div className="views-field views-field-field-school-start">
-                {' '}
-                <div className="field-content">
-                  <span className="date-display-range">
-                    <span className="date-display-start">20 февраля</span>
-                    {' '}
-                    -
-                    {' '}
-                    <span className="date-display-end">26 февраля</span>
-                  </span>
-                </div>
-                {' '}
-              </div>
+              <img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma642.jpg?itok=oR1-n7Wq" alt="asd" />
             </a>
-          </span>
-          {' '}
-        </span>
-      </div>
-      <div className="views-row views-row-5 views-row-odd views-row-last">
-
-        <div className="views-field views-field-field-school-image-mini">
-          {' '}
-          <div className="field-content"><a href="/content/krasnaya-polyana-roza-hutor-rossiya-5"><img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma646.jpg?itok=9svSxole" width="59" height="51" alt="asasd" /></a></div>
-          {' '}
+          </div>
         </div>
-        <span className="views-field views-field-title">
-          {' '}
-          <span className="field-content">
+        <div className={`${styles.schoolElement__text}`}>
+          <a href="/content/kopaonik-serbiya-8">
+            <div>
+              Копаоник (Сербия)
+              <br />
+              20 февраля - 26 февраля
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <hr />
+
+      <div className={`${styles.schoolElement__oneBlock}`}>
+        <div className={`${styles.schoolElement__pictureWithLink}`}>
+          <div className={`${styles.schoolElement__picture}`}>
             <a href="/content/krasnaya-polyana-roza-hutor-rossiya-5">
-              Красная Поляна : Роза Хутор (...
-              <div className="views-field views-field-field-school-start">
-                {' '}
-                <div className="field-content">
-                  <span className="date-display-range">
-                    <span className="date-display-start">05 февраля</span>
-                    {' '}
-                    -
-                    {' '}
-                    <span className="date-display-end">11 февраля</span>
-                  </span>
-                </div>
-                {' '}
-              </div>
+              <img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma646.jpg?itok=9svSxole" alt="asasd" />
             </a>
-          </span>
-          {' '}
-        </span>
+          </div>
+        </div>
+        <div className={`${styles.schoolElement__text}`}>
+          <a href="/content/krasnaya-polyana-roza-hutor-rossiya-5">
+            <div>
+              Красная Поляна : Роза Хутор
+              <br />
+              05 февраля - 11 февраля
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   )
