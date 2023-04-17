@@ -7,16 +7,15 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  // padding-top: 24px;
 }
 
 .menuBar_logo{
-  padding-top: 12px;
-  height: 110px;
+  padding-top: 4px;
+  height: auto;
   background: url('head_bg1.png');
   background-size: cover;
   background-position: center;
-  z-index: 1;
+  // z-index: 1;
 }
 
 .menuBar{
@@ -27,6 +26,8 @@
   padding-top: 4px;
   align-items: center;
   text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .picture{

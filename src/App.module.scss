@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .App {
@@ -9,13 +10,16 @@
 
 .container{
   display: flex;
-  // align-items: center;
-  justify-content: center;
+  flex-direction: column;
   background-image: url("./utils/image/bg1.png");
   background-size: cover;
   background-position: center;
-  padding-top: 100px;
-  border: thick double rgb(214, 21, 21);
+
+  .container1{
+    display: flex;
+    padding-top: 24px;
+    border: thick double rgb(214, 21, 21);
+  }
 }
 
 .header__sticky{

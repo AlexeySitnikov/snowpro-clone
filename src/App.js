@@ -7,11 +7,11 @@ import { Right } from './components/Right/Right'
 
 function App() {
   return (
-    <>
+    <div className={`${styles.container}`}>
       <div className={`${styles.header__sticky}`}>
         <Header />
       </div>
-      <div className={`${styles.container}`}>
+      <div className={`${styles.container1}`}>
         <Left />
         <Center />
         <Right />
@@ -19,7 +19,7 @@ function App() {
       <div className={`${styles.footer__container}`}>
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
 
