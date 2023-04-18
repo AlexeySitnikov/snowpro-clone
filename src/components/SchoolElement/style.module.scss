@@ -18,7 +18,7 @@
     align-items: center;
     border: 1px solid grey;
     border-radius: 8px;
-    margin-top: 4px;
+    margin: 4px;
   }
 
   .schoolElement__pictureWithLink{
@@ -28,8 +28,7 @@
   }
 
   .schoolElement__picture{
-    margin: 0;
-    padding: 4px;
+    margin: 4px;
     height: 51px;
     border-radius: 4px;
   }
@@ -42,7 +41,29 @@
   }
 
   .schoolElement__text{
-    text-align: justify;
+    display: flex;
+    justify-content: center;
     width: 100%;
+  }
+
+  .schoolElement__schoolName{
+    display: flex;
+    justify-content: center;
+  }
+
+  .schoolElement__schoolDate{
+    display: flex;
+    justify-content: center;
+  }
+
+  .schoolElement__schoolDate:hover{
+    color: #f6980c;
+    // box-shadow: 0 16px 36px rgba(246, 152, 12, 0.9);
+    transition: background-color 0.3s ease-in;
+  }
+  .schoolElement__schoolName:hover{
+    color: #f6980c;
+    // box-shadow: 0 16px 36px rgba(246, 152, 12, 0.9);
+    transition: background-color 0.3s ease-in;
   }
 }

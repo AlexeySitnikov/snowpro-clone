@@ -47,13 +47,22 @@
   flex-direction: row;
   width: 20%;
   align-items: center;
+  
+  .label{
+    width: 90%;
+    padding-left: 8px;
+  }
+
+  .line{
+    padding-left: 4px;
+  }
+
+  .label:hover{
+    color: #f6980c;
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+  }
 }
 
-.label{
-  width: 90%;
-  padding-left: 8px;
-}
 
-.line{
-  padding-left: 4px;
-}
+

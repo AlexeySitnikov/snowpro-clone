@@ -74,6 +74,23 @@
     border-color: darkblue;
     margin-top: 4px;
   }
+
+  .news__archive{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8px;
+    margin-top: 32px;
+    font-size: 1.3rem;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .news__archive:hover{
+    color: #f6980c;
+    // box-shadow: 0 16px 36px rgba(246, 152, 12, 0.9);
+    transition: background-color 0.3s ease-in;
+  }
 }
 
 

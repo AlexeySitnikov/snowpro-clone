@@ -22,4 +22,17 @@
     text-align: center;
     height: 5px;
   }
+
+  .forumElement__text{
+    display: flex;
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .forumElement__text:hover{
+    color: #f6980c;
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+  }
 }

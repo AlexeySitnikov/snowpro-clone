@@ -13,9 +13,11 @@ export function SchoolElement() {
         </div>
         <div className={`${styles.schoolElement__text}`}>
           <a href="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
-            <div>
+            <div className={`${styles.schoolElement__schoolName}`}>
               Южно-Сахалинск ( Южный) курорт...
-              <br />
+            </div>
+            <br />
+            <div className={`${styles.schoolElement__schoolDate}`}>
               05 марта-11 марта
             </div>
           </a>
@@ -34,9 +36,11 @@ export function SchoolElement() {
         </div>
         <div className={`${styles.schoolElement__text}`}>
           <a href="/content/heli-ski-shkola-kamchatka">
-            <div>
+            <div className={`${styles.schoolElement__schoolName}`}>
               Хели-ски школа (Камчатка)
-              <br />
+            </div>
+            <br />
+            <div className={`${styles.schoolElement__schoolDate}`}>
               19 марта - 25 марта
             </div>
           </a>
@@ -55,9 +59,11 @@ export function SchoolElement() {
         </div>
         <div className={`${styles.schoolElement__text}`}>
           <a href="/content/arhyz-rossiya-6">
-            <div>
+            <div className={`${styles.schoolElement__schoolName}`}>
               Архыз (Россия)
-              <br />
+            </div>
+            <br />
+            <div className={`${styles.schoolElement__schoolDate}`}>
               27 февраля - 04 марта
             </div>
           </a>
@@ -76,9 +82,11 @@ export function SchoolElement() {
         </div>
         <div className={`${styles.schoolElement__text}`}>
           <a href="/content/kopaonik-serbiya-8">
-            <div>
+            <div className={`${styles.schoolElement__schoolName}`}>
               Копаоник (Сербия)
-              <br />
+            </div>
+            <br />
+            <div className={`${styles.schoolElement__schoolDate}`}>
               20 февраля - 26 февраля
             </div>
           </a>
@@ -97,9 +105,11 @@ export function SchoolElement() {
         </div>
         <div className={`${styles.schoolElement__text}`}>
           <a href="/content/krasnaya-polyana-roza-hutor-rossiya-5">
-            <div>
+            <div className={`${styles.schoolElement__schoolName}`}>
               Красная Поляна : Роза Хутор
-              <br />
+            </div>
+            <br />
+            <div className={`${styles.schoolElement__schoolDate}`}>
               05 февраля - 11 февраля
             </div>
           </a>

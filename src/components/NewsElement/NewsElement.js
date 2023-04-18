@@ -186,6 +186,9 @@ export function NewsElement() {
         </div>
       </div>
       <hr />
+      <div className={`${styles.news__archive}`}>
+        Архив новостей
+      </div>
     </div>
   )
 }
