@@ -1,11 +1,11 @@
-import './header_style.scss'
+import styles from './header_style.scss'
 import logo from '../../utils/image/logo1.png'
 
 export function Header() {
   function updateScroll() {
     if (window.scrollY > 0) {
-      document.querySelector('header').classList.add('header__scrolled')
-      // console.log((document.querySelector('header').className))
+      document.querySelector('header').classList.add(styles.header__scrolled)
+      // console.log(styles.success)
     } else {
       document.querySelector('header').classList.remove('header__scrolled')
       // console.log((document.querySelector('header').className))
