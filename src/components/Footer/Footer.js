@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import styles from './style.module.scss'
+import logo from '../../utils/image/logo1.png'
 
 export function Footer() {
   return (
@@ -54,7 +55,7 @@ export function Footer() {
         </div>
         <br />
         <div className={`${styles.footer__copyright}`}>
-          GreenCorp © 2021
+          <img className={`${styles.footer__logo}`} src={`${logo}`} alt="logo" />
         </div>
       </div>
     </footer>

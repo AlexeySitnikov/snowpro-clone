@@ -6,6 +6,12 @@
   background: url("../../utils/image/big_title_bg.png") no-repeat;
   // padding-left: 100px;
   justify-content: center;
+
+  h2:hover{
+    color: #f6980c;
+    transition: background-color 0.3s ease-in;
+    cursor: pointer;
+  }
 }
 
 .ads_elementDiv{

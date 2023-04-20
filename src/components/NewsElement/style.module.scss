@@ -16,7 +16,13 @@
     justify-content: center;
     color: #369;
     text-transform:uppercase;
-    background: url("../../utils/image/big_title_bg.png") no-repeat;
+    background: url("../../utils/image/big_title_bg.png") center no-repeat;
+    cursor: pointer;
+  }
+
+  h2:hover{
+    color: #f6980c;
+    transition: background-color 0.3s ease-in;
   }
 
   .news__container{
@@ -66,6 +72,12 @@
       display: flex;
       justify-content: center;
     }
+
+    .news__date:hover{
+      color: #f6980c;
+      transition: background-color 0.3s ease-in;
+      cursor: pointer;
+    }
   }
 
   hr{
@@ -80,10 +92,12 @@
     justify-content: flex-start;
     margin-left: 8px;
     margin-top: 32px;
+    margin-bottom: 24px;
     font-size: 1.3rem;
     font-style: italic;
     text-decoration: underline;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   .news__archive:hover{
