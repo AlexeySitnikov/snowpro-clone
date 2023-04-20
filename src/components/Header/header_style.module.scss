@@ -32,7 +32,16 @@ body{
   
     .header__contacts{
       margin: 12px;
+      
+      a{
+        color: #fff;
+      }
+      a:hover{
+        color: #f6980c;
+        transition: background-color 0.3s ease-in;
+      }
     }
+    
     .header__makeOrder{
       margin: 12px;
     }
