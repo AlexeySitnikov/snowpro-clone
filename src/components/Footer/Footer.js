@@ -5,7 +5,7 @@ import logo from '../../utils/image/logo1.png'
 export function Footer() {
   return (
     <footer>
-      <div className={`${styles.footer__container}`}>
+      <div className={`${styles.footer__container}`} id="#contacts">
         <div className={`${styles.footer__label}`}>
           <h2>Наши партнеры</h2>
         </div>

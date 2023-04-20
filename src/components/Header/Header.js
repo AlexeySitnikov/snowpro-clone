@@ -21,12 +21,13 @@ export function Header() {
       </div>
       <div className={`${styles.header__controls}`}>
         <div className={`${styles.header__contacts}`}>
-          <button type="button" href="#form">Контакты</button>
+          <button type="button">Контакты</button>
         </div>
         <div className={`${styles.header__makeOrder}`}>
           <button type="button" href="#">Заказать</button>
         </div>
       </div>
+
     </header>
   )
 }
