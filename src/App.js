@@ -1,9 +1,7 @@
+import { Outlet } from 'react-router-dom'
 import styles from './App.module.scss'
-import { Center } from './components/Center/Center'
 import { Footer } from './components/Footer/Footer'
 import { Header } from './components/Header/Header'
-import { Left } from './components/Left/Left'
-import { Right } from './components/Right/Right'
 
 function App() {
   return (
@@ -12,9 +10,7 @@ function App() {
         <Header />
       </div>
       <div className={`${styles.container1}`}>
-        <Left />
-        <Center />
-        <Right />
+        <Outlet />
       </div>
       <div className={`${styles.footer__container}`}>
         <Footer />
