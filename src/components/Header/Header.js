@@ -6,10 +6,8 @@ export function Header() {
   function updateScroll() {
     if (window.scrollY > 0) {
       document.querySelector('header').classList.add(scrollStyle.header__scrolled)
-      // console.log(styles.success)
     } else {
       document.querySelector('header').classList.remove(scrollStyle.header__scrolled)
-      // console.log((document.querySelector('header').className))
     }
   }
   window.addEventListener('scroll', updateScroll)
@@ -17,7 +15,10 @@ export function Header() {
   return (
     <header className={`${styles.header__container}`}>
       <div className={`${styles.header__logo}`}>
-        <img src={`${logo}`} alt="logo" />
+        <img
+          src={`${logo}`}
+          alt="logo"
+        />
       </div>
       <div className={`${styles.header__controls}`}>
         <div className={`${styles.header__contacts}`}>

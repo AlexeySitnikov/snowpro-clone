@@ -1,15 +1,23 @@
+import { Link } from 'react-router-dom'
 import styles from './style.module.scss'
 
 export function ForumElement() {
   return (
     <div className={`${styles.forumElement}`}>
-      <a href="https://snowpro.ru/phpbbforum/viewtopic.php?f=4&amp;t=37200&amp;p=184254&amp;hilit=&amp;sid=2dd2c71047bfea57551b5f2e76d4e1f7#p184254">
+      <Link to="https://snowpro.ru/phpbbforum/viewtopic.php?f=4&amp;t=37200&amp;p=184254&amp;hilit=&amp;sid=2dd2c71047bfea57551b5f2e76d4e1f7#p184254">
         <div>
           <span className={`${styles.forumElement__text}`}>
             Майский Кировск, вс..: Представьте! В мае с 1 по 7 мая ( день радио) будет наша школа.
           </span>
         </div>
-      </a>
+      </Link>
+      {/* <a href="https://snowpro.ru/phpbbforum/viewtopic.php?f=4&amp;t=37200&amp;p=184254&amp;hilit=&amp;sid=2dd2c71047bfea57551b5f2e76d4e1f7#p184254">
+        <div>
+          <span className={`${styles.forumElement__text}`}>
+            Майский Кировск, вс..: Представьте! В мае с 1 по 7 мая ( день радио) будет наша школа.
+          </span>
+        </div>
+      </a> */}
       <hr />
       <a href="https://snowpro.ru/phpbbforum/viewtopic.php?f=4&amp;t=37197&amp;p=184249&amp;hilit=&amp;sid=2dd2c71047bfea57551b5f2e76d4e1f7#p184249">
         <div>

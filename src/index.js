@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App'
 import { MainPage } from './components/MainPage/MainPage'
+import { SchoolsOutlet } from './components/SchoolsOutlet/SchoolsOutlet'
+import { ForumOutlet } from './components/ForumOutlet/ForumOutlet'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
@@ -17,8 +19,18 @@ const router = createBrowserRouter([
         element: <MainPage />,
       },
       {
-        path: 'news/:newsID',
-        element: <Outlet />,
+        path: 'content/',
+        element: <SchoolsOutlet />,
+        children: [
+          {
+            path: '*',
+            element: '',
+          },
+        ],
+      },
+      {
+        path: 'forum/*',
+        element: <ForumOutlet />,
       },
     ],
   },

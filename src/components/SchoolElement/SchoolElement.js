@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './style.module.scss'
 
 export function SchoolElement() {
@@ -6,13 +7,16 @@ export function SchoolElement() {
       <div className={`${styles.schoolElement__oneBlock}`}>
         <div className={`${styles.schoolElement__pictureWithLink}`}>
           <div className={`${styles.schoolElement__picture}`}>
-            <a href="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
+            <Link to="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
               <img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma643.jpg?itok=e8tkR9sZ" alt="asd" />
-            </a>
+            </Link>
+            {/* <a href="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
+              <img src="https://snowpro.ru/sites/default/files//styles/mini_school/public/imported/sma643.jpg?itok=e8tkR9sZ" alt="asd" />
+            </a> */}
           </div>
         </div>
         <div className={`${styles.schoolElement__text}`}>
-          <a href="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
+          <Link to="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
             <div className={`${styles.schoolElement__schoolName}`}>
               Южно-Сахалинск ( Южный) курорт...
             </div>
@@ -20,7 +24,16 @@ export function SchoolElement() {
             <div className={`${styles.schoolElement__schoolDate}`}>
               05 марта-11 марта
             </div>
-          </a>
+          </Link>
+          {/* <a href="/content/yuzhno-sahalinsk-yuzhnyy-kurort-gornyy-vozduh">
+            <div className={`${styles.schoolElement__schoolName}`}>
+              Южно-Сахалинск ( Южный) курорт...
+            </div>
+            <br />
+            <div className={`${styles.schoolElement__schoolDate}`}>
+              05 марта-11 марта
+            </div>
+          </a> */}
         </div>
       </div>
 
