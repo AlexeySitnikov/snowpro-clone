@@ -5,7 +5,7 @@ import styles from './style.module.scss'
 
 export function Left() {
   return (
-    <div className={`${styles.left_element}`}>
+    <div id="a" className={`${styles.left_element}`}>
       <div className={`${styles.left_elementLabel}`}>
         <h2>Форум</h2>
       </div>

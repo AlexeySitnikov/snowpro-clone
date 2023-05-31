@@ -9,9 +9,7 @@ function App() {
       <div className={`${styles.header__sticky}`}>
         <Header />
       </div>
-      <div className={`${styles.container1}`}>
-        <Outlet />
-      </div>
+      <Outlet />
       <div className={`${styles.footer__container}`}>
         <Footer />
       </div>

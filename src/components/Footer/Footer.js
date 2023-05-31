@@ -12,22 +12,28 @@ export function Footer() {
           </div>
           <div className={`${styles.footer__partners}`}>
             <div>
-              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/PacGroup.jpg?itok=2mPAEWwS" width="122" height="44" alt="" />
+              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/PacGroup.jpg?itok=2mPAEWwS" alt="" />
+              {/* width="122" height="44" */}
             </div>
             <div>
-              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/snowavalanche_logo.png?itok=S7qwmcZl" width="122" height="59" alt="" />
+              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/snowavalanche_logo.png?itok=S7qwmcZl" alt="" />
+              {/* width="122" height="59"  */}
             </div>
             <div>
-              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/TrialSport_0.jpg?itok=JbCtlJJu" width="122" height="43" alt="" />
+              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/TrialSport_0.jpg?itok=JbCtlJJu" alt="" />
+              {/* width="122" height="43"  */}
             </div>
             <div>
-              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/attachment-1.gif?itok=k9xl4rPg" width="68" height="68" alt="" />
+              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/attachment-1.gif?itok=k9xl4rPg" alt="" />
+              {/* width="68" height="68"  */}
             </div>
             <div>
-              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/pp-banner_0.gif?itok=nM605VHe" width="119" height="68" alt="" />
+              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/pp-banner_0.gif?itok=nM605VHe" alt="" />
+              {/* width="119" height="68"  */}
             </div>
             <div>
-              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/podpis.png?itok=tx2WspnM" width="122" height="24" alt="" />
+              <img src="https://snowpro.ru/sites/default/files//styles/partner/public/podpis.png?itok=tx2WspnM" alt="" />
+              {/* width="122" height="24"  */}
             </div>
           </div>
           <br />

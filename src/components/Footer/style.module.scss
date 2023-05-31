@@ -1,3 +1,7 @@
+footer{
+  width: 80%;
+}
+
 .footer__container{
   justify-content: center;
   background-color: aliceblue;
@@ -31,8 +35,6 @@
       cursor: pointer;
     }
   }
-
-
   
   .footer__group h3{
     font-size: 16px;
@@ -77,5 +79,39 @@
   }
 }
 
+@media (max-width: 768px) {
 
+  footer{
+    width: 70%;
+  }
+
+  .footer__partners{
+    display: flex;
+    flex-direction: column;
+
+    img{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    div{
+      display: flex;
+      width: 30%;
+    }
+  }
+
+  .footer__info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .footer__group{
+      h3{
+        font-size: 2rem;
+      }
+      font-size: 1.3rem;
+    }
+  }
+}
 

@@ -1,6 +1,7 @@
 .left_element{
   background-color: whitesmoke;
-  width: 20%;  
+  // width: 20%;  
+  width: 100%;
 }
 
 .left_elementLabel{
@@ -16,5 +17,13 @@
     color: #f6980c;
     transition: background-color 0.3s ease-in;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
