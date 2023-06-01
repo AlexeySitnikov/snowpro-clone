@@ -6,13 +6,13 @@ import styles from './style.module.scss'
 export function MainPage() {
   return (
     <div className={`${styles.main_page}`}>
-      <div id="a">
+      <div className={`${styles.left}`}>
         <Left />
       </div>
-      <div id="b">
+      <div className={`${styles.center}`}>
         <Center />
       </div>
-      <div id="c">
+      <div className={`${styles.right}`}>
         <Right />
       </div>
     </div>

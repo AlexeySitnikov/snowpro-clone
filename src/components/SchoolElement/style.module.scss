@@ -28,8 +28,10 @@
   }
 
   .schoolElement__picture{
+    display: flex;
+    align-items: center;
     margin: 4px;
-    height: 51px;
+    // height: 51px;
     border-radius: 4px;
   }
 
@@ -65,5 +67,18 @@
     color: #f6980c;
     // box-shadow: 0 16px 36px rgba(246, 152, 12, 0.9);
     transition: background-color 0.3s ease-in;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .schoolElement__schoolName{
+    font-size: 1.5rem;
+  }
+  .schoolElement__schoolDate{
+    font-size: 1.3rem;
+  }
+  .schoolElement__picture img{
+    width: 5rem;
   }
 }
