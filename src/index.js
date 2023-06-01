@@ -6,6 +6,11 @@ import App from './App'
 import { MainPage } from './components/MainPage/MainPage'
 import { SchoolsOutlet } from './components/SchoolsOutlet/SchoolsOutlet'
 import { ForumOutlet } from './components/ForumOutlet/ForumOutlet'
+import { AboutUs } from './components/AboutUs/AboutUs'
+import { SchoolCalendar } from './components/SchoolsCalendar/SchoolsCalendar'
+import { Instructors } from './components/Instructors/Instructors'
+import { Media } from './components/Media/Media'
+import { Contacts } from './components/Contacts/Contacts'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
@@ -27,6 +32,26 @@ const router = createBrowserRouter([
             element: '',
           },
         ],
+      },
+      {
+        path: 'about',
+        element: <AboutUs />,
+      },
+      {
+        path: 'schools',
+        element: <SchoolCalendar />,
+      },
+      {
+        path: 'instructors',
+        element: <Instructors />,
+      },
+      {
+        path: 'media',
+        element: <Media />,
+      },
+      {
+        path: 'contacts',
+        element: <Contacts />,
       },
       {
         path: 'forum/*',

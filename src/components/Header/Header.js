@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+import { useNavigate } from 'react-router-dom'
 import styles from './header_style.module.scss'
 import scrollStyle from './header_scrolled.module.scss'
 import logo from '../../utils/image/logo1.png'
@@ -12,9 +15,16 @@ export function Header() {
   }
   window.addEventListener('scroll', updateScroll)
 
+  const navigate = useNavigate()
+  const logoClickHandler = (e) => {
+    e.preventDefault()
+    e.stopPropagation()
+    navigate('/')
+  }
+
   return (
     <header className={`${styles.header__container}`}>
-      <div className={`${styles.header__logo}`}>
+      <div className={`${styles.header__logo}`} onClick={logoClickHandler}>
         <img
           src={`${logo}`}
           alt="logo"
