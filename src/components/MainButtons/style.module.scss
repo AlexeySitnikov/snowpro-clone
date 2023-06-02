@@ -19,5 +19,10 @@
   .buttonsUnderPicture button{
     font-size: 1.2rem;
   }
+}
 
+@media (max-width: 480px) {
+  .buttonsUnderPicture button{
+    font-size: 1rem;
+  }
 }

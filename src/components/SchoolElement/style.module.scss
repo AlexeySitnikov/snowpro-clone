@@ -82,3 +82,19 @@
     width: 5rem;
   }
 }
+
+@media (max-width: 480px) {
+  .schoolElement__schoolName{
+    font-size: 1.1rem;
+  }
+  .schoolElement__schoolDate{
+    font-size: 1rem;
+  }
+  .schoolElement__picture img{
+    width: 5rem;
+  }
+  .schoolElement__text{
+    display: flex;
+    justify-content: center;
+  }
+}

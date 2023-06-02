@@ -87,3 +87,32 @@
     width: 90%;
   }
 }
+
+@media (max-width: 480px) {
+  .buttonsUnderPicture button{
+    font-size: 1rem;
+  }
+  .label{
+    font-size: 1rem;
+  }
+
+  .menuBar{
+    display: flex;
+    // flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+  }
+  .label{
+    font-size: 1.2rem;
+  }
+
+  .menuBar{
+    width: 50%;
+  }
+  .labelAndSeparator{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 4px;
+  }
+}

@@ -69,6 +69,7 @@
     display: flex;
     text-align: justify;
     justify-content: center;
+    padding-left: 4px;
 
     .news__date{
       display: flex;
@@ -121,3 +122,18 @@
   }
 }
 
+@media (max-width: 480px) {
+  .news__date{
+    font-size: 1.2rem;
+  }
+  .news__content{
+    font-size: 1rem;
+  }
+  .news__container{
+    display: flex;
+    flex-direction: column;
+  }
+  .news__reference{
+    padding-bottom: 8px;
+  }
+}
