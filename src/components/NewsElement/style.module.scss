@@ -110,7 +110,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .news__date{
     font-size: 1.2rem;
   }
@@ -125,6 +125,25 @@
 @media (max-width: 480px) {
   .news__date{
     font-size: 1.2rem;
+  }
+  .news__content{
+    font-size: 1rem;
+  }
+  .news__container{
+    display: flex;
+    flex-direction: column;
+  }
+  .news__reference{
+    padding-bottom: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container h2{
+  font-size: 1.2rem;
+  }
+  .news__date{
+    font-size: 1rem;
   }
   .news__content{
     font-size: 1rem;
