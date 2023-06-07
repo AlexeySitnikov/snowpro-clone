@@ -7,7 +7,7 @@ import logo from '../../utils/image/logo1.png'
 
 export function Header() {
   function updateScroll() {
-    if (window.scrollY > 0) {
+    if ((window.scrollY > 0) && (window.innerWidth > 480)) {
       document.querySelector('header').classList.add(scrollStyle.header__scrolled)
     } else {
       document.querySelector('header').classList.remove(scrollStyle.header__scrolled)
