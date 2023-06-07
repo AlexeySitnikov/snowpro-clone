@@ -19,7 +19,7 @@ export function Header() {
   const logoClickHandler = (e) => {
     e.preventDefault()
     e.stopPropagation()
-    navigate('/')
+    navigate('/snowpro-clone/')
   }
 
   return (

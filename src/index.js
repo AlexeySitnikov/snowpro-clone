@@ -4,7 +4,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App'
 import { MainPage } from './components/MainPage/MainPage'
-import { SchoolsOutlet } from './components/SchoolsOutlet/SchoolsOutlet'
+// import { SchoolsOutlet } from './components/SchoolsOutlet/SchoolsOutlet'
 import { ForumOutlet } from './components/ForumOutlet/ForumOutlet'
 import { AboutUs } from './components/AboutUs/AboutUs'
 import { SchoolCalendar } from './components/SchoolsCalendar/SchoolsCalendar'
@@ -16,23 +16,23 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/snowpro-clone/',
     element: <App />,
     children: [
       {
-        path: '*',
+        path: '',
         element: <MainPage />,
       },
-      {
-        path: 'content/',
-        element: <SchoolsOutlet />,
-        children: [
-          {
-            path: '*',
-            element: '',
-          },
-        ],
-      },
+      // {
+      //   path: 'content/',
+      //   element: <SchoolsOutlet />,
+      //   children: [
+      //     {
+      //       path: '*',
+      //       element: '',
+      //     },
+      //   ],
+      // },
       {
         path: 'about',
         element: <AboutUs />,
