@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/snowpro-clone/static/css/main.099c6806.css",
-    "main.js": "/snowpro-clone/static/js/main.e9293fe7.js",
+    "main.css": "/snowpro-clone/static/css/main.a962df49.css",
+    "main.js": "/snowpro-clone/static/js/main.3f34f8e9.js",
     "static/media/bg1.png": "/snowpro-clone/static/media/bg1.e8fc263404b12d14d658.png",
     "static/media/head_bg1.png": "/snowpro-clone/static/media/head_bg1.809f0ba2e2f60a3fa0d7.png",
     "static/media/logo1.png": "/snowpro-clone/static/media/logo1.1fffd1268e225e017fd0.png",
     "static/media/20let_ras_ok.jpg": "/snowpro-clone/static/media/20let_ras_ok.04bd625027c631a91f68.jpg",
     "index.html": "/snowpro-clone/index.html",
-    "main.099c6806.css.map": "/snowpro-clone/static/css/main.099c6806.css.map",
-    "main.e9293fe7.js.map": "/snowpro-clone/static/js/main.e9293fe7.js.map"
+    "main.a962df49.css.map": "/snowpro-clone/static/css/main.a962df49.css.map",
+    "main.3f34f8e9.js.map": "/snowpro-clone/static/js/main.3f34f8e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.099c6806.css",
-    "static/js/main.e9293fe7.js"
+    "static/css/main.a962df49.css",
+    "static/js/main.3f34f8e9.js"
   ]
 }
